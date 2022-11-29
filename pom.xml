@@ -50,5 +50,27 @@
             </plugin>
         </plugins>
     </build>
+    <name>PdfInvoiceCreator</name>
+    <description>With the help of this library we can create pdf invoice just by providing the required data</description>
+    <url>https://github.com/bhaskarkh/PdfInvoiceCreator</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Kumar Bhaskar</name>
+            <email>bhaskar646@gmail.com</email>
+            <organization>io.github.bhaskarkh</organization>
+            <organizationUrl>https://github.com/bhaskarkh/PdfInvoiceCreator</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/bhaskarkh/PdfInvoiceCreator.git</connection>
+        <developerConnection>scm:git:ssh://github.com/bhaskarkh/PdfInvoiceCreator.git</developerConnection>
+        <url>https://github.com/bhaskarkh/PdfInvoiceCreator</url>
+    </scm>
 
 </project>
