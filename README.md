@@ -126,4 +126,7 @@ if lastPage is false it will create  tnc at last line(footer always at bottom) o
 In sample code image with name ce_logo_circle_transparent.png
 must be there at resource folder or you can change path as per your convience.
 
-
+TODO
+1. Create Different Template of invoce to use
+2. Add Logo image at Header
+3. 
