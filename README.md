@@ -18,6 +18,10 @@ implementation 'io.github.bhaskarkh:PdfInvoiceCreator:1.0.1'
 **Sample Code**
 
 ```java
+import com.codingerror.model.AddressDetails;
+import com.codingerror.model.HeaderDetails;
+import com.codingerror.model.Product;
+import com.codingerror.model.ProductTableHeader;
 import com.codingerror.service.CodingErrorPdfInvoiceCreator;
 
 import java.io.FileNotFoundException;
@@ -25,7 +29,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-
 public class GeneratePdf_Modified {
     public static void main(String[] args) throws FileNotFoundException {
         LocalDate ld= LocalDate.now();
